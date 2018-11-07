@@ -36,6 +36,10 @@ DAO receives 30% of daily mined tokens;
 
 30% is reserved for internal development fund.
 
+https://etherscan.io/address/0x024008f43b1956e111cdb88a76b517cb4b241c7e - HLPMT
+https://etherscan.io/address/0xa809d363a66c576a2a814cdbfefc107c600a55f0 - HLT
+https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da - Managment
+
 ## Solidity compiler
 - build Version :
 > 0.4.24+commit.e67f0147.Emscripten.clang
