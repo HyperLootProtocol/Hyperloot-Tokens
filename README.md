@@ -128,6 +128,20 @@ https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da - Managm
 
 4. Confirm Metamask transaction
 
+#### Get vesting information
+
+1. Open the following link to review code https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da#readContract 
+
+2. Find “Payments” field
+
+3.	Paste your address and press “Query”. You receive payments method Response with a uint256 number. That is the amount of tokens + 18 decimals
+
+4. Find “paymentsTimestamps” field
+
+5. Paste your address and press “Query”
+
+6. Receive “paymentsTimestamps” method Response and a uint256 number:  1540584900 (example). This is a date in unix encoding, you can find out the date here: https://www.unixtimestamp.com/index.php
+
 #### Transferring tokens after vesting to the target wallet 
 
 1. Copy management contract code https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da#code 
@@ -149,20 +163,6 @@ https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da - Managm
 7. Recall “withdrawPayments” function
 
 8. Confirm Metamask transaction
-
-#### Get vesting information
-
-1. Open the following link to review code https://etherscan.io/address/0xe84fd16bdf58f2d890046a7b20cf0a10104610da#readContract 
-
-2. Find “Payments” field
-
-3.	Paste your address and press “Query”. You receive payments method Response with a uint256 number. That is the amount of tokens + 18 decimals
-
-4. Find “paymentsTimestamps” field
-
-5. Paste your address and press “Query”
-
-6. Receive “paymentsTimestamps” method Response and a uint256 number:  1540584900. This is a date in unix encoding, you can find out the date here: https://www.unixtimestamp.com/index.php
 
 #### Finding HLPMT current pricing (HLT)
 
