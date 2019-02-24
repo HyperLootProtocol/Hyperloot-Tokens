@@ -1,4 +1,4 @@
-# Hyperloot project
+# Esportsbits
 
 ## Introduction
 
@@ -12,7 +12,7 @@ This repository contains the smart contracts, test cases, and deployment scirpts
 
 HLT token is ERC 20 which are mined every day using the HLPMT (the mining tokens).
 
-  - Name: HyperLoot
+  - Name: Esportsbits
   - Symbol: HLT
   - Max Supply: 1,000,000,000
   - Type: ERC20
@@ -22,7 +22,7 @@ HLT token is ERC 20 which are mined every day using the HLPMT (the mining tokens
 
 HLT token is mined by the owners of the mining token - HLPMT.
 
-  - Name: HyperLoot Protocol Mining Token
+  - Name: Esportsbits Mining Token
   - Symbol: HLPMT
   - Max Supply: unlimited
   - Type: ERC721
