@@ -5,7 +5,7 @@
 This repository contains the smart contracts, test cases, and deployment scirpts for the contracts:
 
   - HLT token (ERC20) (HLPMTToken.sol)
-  - HLPMT token (ERC721) (HyperLootToken.sol)
+  - HLPMT token (ERC721) (HLT.sol)
   - Management (Management.sol)
 
 ## Description
